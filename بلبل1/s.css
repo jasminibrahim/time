@@ -1,0 +1,313 @@
+.popol {
+   
+    height: 95vh;
+}
+
+.OIOI {
+    background-color: #1A47DD;
+    border-radius: 30px;
+    color: #fff;
+    padding: 1%;
+    width: 150px;
+    border: none;
+}
+
+
+
+
+.lklk {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-c{
+  
+    background-color: #1A47DD;
+    border-radius: 30px;
+    color: #fff;
+    padding: 1%;
+    width: 130px;
+    border: none;
+
+
+}
+.vvv{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   
+}
+.auto{
+  
+    height: 40vh;
+   
+
+}
+.bn{
+    display: inline-block;
+    margin-top: -13%;
+}
+.cc{
+   
+    height: 40vh;
+   
+   
+}
+.bbbbbbb{
+    margin-bottom: 4%;
+}
+.btn-c{
+  
+    border-color:#1A47DD 1px solid
+}
+
+.p1{
+    color: #3F3D56;
+}
+.span_color{
+    color:#1A47DD;
+}
+.eueu{
+    padding-top: 5%;
+    padding-bottom: 5%;
+   display: flex;
+   align-items: center;
+   height: 40vh;
+}
+.card img{
+width: 100%;
+height: 100%;
+}
+.xxx{
+    background-color: #1A47DD;
+    min-height: 200px;
+    margin-top: 5%;
+   
+}
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio {
+    padding-bottom: 60px;
+  }
+  .portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 0 35px 0;
+    list-style: none;
+    text-align: center;
+  }
+  .portfolio #portfolio-flters li {
+    cursor: pointer;
+    margin: 0 12px 5px 12px;
+    display: inline-block;
+    padding: 0 4px 6px 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #444;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+    border-color: #68A4C4;
+    color: #68A4C4;
+  }
+  .portfolio .portfolio-item {
+    background: #1e4356;
+    overflow: hidden;
+    min-height: 200px;
+    position: relative;
+    border-radius: 4px;
+    margin: 0 0 30px 0;
+  }
+  .portfolio .portfolio-item img {
+    transition: all 0.3s ease-in-out;
+  }
+  .portfolio .portfolio-item .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s linear;
+    text-align: center;
+    top: 10%;
+    left: 0;
+    right: 0;
+  }
+  .portfolio .portfolio-item .portfolio-info h3 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .portfolio .portfolio-item .portfolio-info a i {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 28px;
+    transition: 0.3s;
+  }
+  .portfolio .portfolio-item .portfolio-info a i:hover {
+    color: white;
+  }
+  .portfolio .portfolio-item:hover img {
+    opacity: 0.6;
+    transform: scale(1.1);
+  }
+  .portfolio .portfolio-item:hover .portfolio-info {
+    opacity: 1;
+    top: calc(50% - 30px);
+  }
+  
+  /*--------------------------------------------------------------
+  # Portfolio Details
+  --------------------------------------------------------------*/
+  .portfolio-details {
+    padding-top: 40px;
+  }
+  .portfolio-details .portfolio-details-slider img {
+    width: 100%;
+  }
+  .portfolio-details .portfolio-details-slider .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #68A4C4;
+  }
+  .b{
+      height: 200px;
+  }
+  .b img{
+      height: 100%;
+  }
+  .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #68A4C4;
+  }
+  .portfolio-details .portfolio-info {
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba(30, 67, 86, 0.08);
+  }
+  .portfolio-details .portfolio-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  .portfolio-details .portfolio-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+  }
+  .portfolio-details .portfolio-info ul li + li {
+    margin-top: 10px;
+  }
+  .portfolio-details .portfolio-description {
+    padding-top: 30px;
+  }
+  .portfolio-details .portfolio-description h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .portfolio-details .portfolio-description p {
+    padding: 0;
+  }
+  
+.click{
+  
+    border-radius: 30px;
+    color: #fff;
+    padding: 1%;
+    width: 150px;
+    border: none;
+}
+.ppp{
+    text-align: center;
+    color: #fff;
+   padding-top: 5%;
+   padding-bottom: 5%;
+    min-height: 200px;
+}
+@media(max-width:767px){
+    .lklk{
+        padding-top: 6%;
+    }
+    .auto{
+       text-align: center;
+    }
+}
+@media(max-width:992px){
+    .n{
+        margin: auto;
+        margin-top: 4%;
+    }
+}
+
+
+
+
+
+
+
+
+.blog .entry .entry-footer {
+    padding-top: 10px;
+    border-top: 1px solid #e6e6e6;
+  }
+  .blog .entry .entry-footer i {
+    color: #4c99c1;
+    display: inline;
+  }
+  .blog .entry .entry-footer a {
+    color: #255269;
+    transition: 0.3s;
+  }
+  .blog .entry .entry-footer a:hover {
+    color: #68A4C4;
+  }
+  .blog .entry .entry-footer .cats {
+    list-style: none;
+    display: inline;
+    padding: 0 20px 0 0;
+    font-size: 14px;
+  }
+  .blog .entry .entry-footer .cats li {
+    display: inline-block;
+  }
+  .blog .entry .entry-footer .tags {
+    list-style: none;
+    display: inline;
+    padding: 0;
+    font-size: 14px;
+  }
+  .blog .entry .entry-footer .tags li {
+    display: inline-block;
+  }
+  .blog .entry .entry-footer .tags li + li::before {
+    padding-right: 6px;
+    color: #6c757d;
+    content: ",";
+  }
+  .blog .entry .entry-footer .share {
+    font-size: 16px;
+  }
+  .blog .entry .entry-footer .share i {
+    padding-left: 5px;
+  }
+  footer{
+    background: #1A47dd;
+    min-height: 150px;
+  
+  }
+  .wewe{
+    color:#fff;
+  }
+  .VV{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+  }
